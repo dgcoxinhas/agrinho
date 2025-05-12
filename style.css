@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color:#bfd8ec
+    background-color:#bfd8ec;
 }
 
 h1, p,h2,h6 {
@@ -140,6 +140,7 @@ header a {
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+    background-color: #bfd8ec ;
     }
 
 .topico{
