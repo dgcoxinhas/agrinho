@@ -1,0 +1,277 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: var(--cor-de-fundo)
+}
+
+h1 {
+    color: var(--cor-do-texto);
+}
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eb8fae;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    font-size: 55px;
+    color: #c99dae;
+    font-family: "oswald", sans-serif;
+}
+
+.marca {
+    width: 32%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    right: 37px; 
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
+#icon-pesquisa {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffd5b2;
+    border-radius: 40px;
+    margin: 7% 20%;
+    
+}
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #4c8355;
+    border-radius: 92px;
+}
+    
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.caixa-pesquisa {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa:hover > .texto-pesqu {
+   width: 240px;
+}
+
+.menu{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+.apresentação{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+    font-size: 35px;
+    padding: 0 6%;
+}
+
+.img-casa{
+    width: 35%;
+    float: right;
+}
+.img-solu{
+    width: 35%;
+    float: right;
+}
+
+.titulo-principal{
+    margin-top: 7%;
+    padding: 20px 98px;
+    font-size: 66px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    }
+
+.topico{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 35px;
+    font-size: 252%;
+    padding: 0 4%;
+    color: #030e04;
+}
+
+.desenvol{
+    font-size: 35px;
+    padding: 0 6%;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+  }
+  
+.div{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 365;
+    font-style: normal;
+    font-size: 35px;
+    padding: 2% 5%;
+  }
+
+.letrinha-pequena{
+    font-size: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+ 
+
+
+
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #214427;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: widht 0.3s;
+}
+
+nav a{
+    padding: 20px 0;
+    color: #9dc9a4;
+    font-size: 25px;
+    display: block;
+    padding: 9px 52px 12px 58px ;
+}
+
+nav a:hover{
+    color: #214427;
+    background-color: #9dc9a4;
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+
+
+
+footer {
+    min-height: 250px;
+    display: flex;
+    width: 100%;
+    background: #214427;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer .boxs {
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 52px;
+    font-size: 32px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
+ .boxs h2{
+    color: #b6e9be;
+    margin-bottom: 20px;
+ }
+
+ .boxs ul li{
+    margin:10px 0px;
+    list-style: none;
+ }
+
+ .boxs ul li a{
+    color:#e5f7e7;
+    text-decoration: none;
+ }
+
+ .boxs ul li a:hover {
+    color:#9dc9a4;
+ }
+
+ @media screen and (min-width: 768px) {
+
+    .hello-kitty {
+        display: flex;
+        align-items: center;
+        margin: -3% 0;
+    }
+
+    .nome {
+        font-size: 70px;
+        color: #9dc9a4;
+        font-family: "oswald", sans-serif;
+    }
+
+    .caixa-pesquisa {
+        height: 68px;
+
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
