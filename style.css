@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #eb8fae;
+    background-color: #1a77ad;
 }
 
 header a {
@@ -86,7 +86,7 @@ header a {
     line-height: 40px;
     width: 0;
     transition: .5s;
-    background-color: #4c8355;
+    background-color: #1a77ad;
     border-radius: 92px;
 }
     
@@ -194,15 +194,15 @@ nav{
 
 nav a{
     padding: 20px 0;
-    color: #9dc9a4;
+    color: #9db5c9;
     font-size: 25px;
     display: block;
     padding: 9px 52px 12px 58px ;
 }
 
 nav a:hover{
-    color: #214427;
-    background-color: #9dc9a4;
+    color: #212344;
+    background-color: #8599ce;
 }
 
 main{
@@ -216,7 +216,7 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
-    background: #214427;
+    background: #305874;
     flex-direction: column;
     text-align: center;
 }
@@ -234,7 +234,7 @@ footer .boxs {
 }
 
  .boxs h2{
-    color: #b6e9be;
+    color: #b6e6e9;
     margin-bottom: 20px;
  }
 
@@ -244,12 +244,12 @@ footer .boxs {
  }
 
  .boxs ul li a{
-    color:#e5f7e7;
+    color:#e5eff7;
     text-decoration: none;
  }
 
  .boxs ul li a:hover {
-    color:#9dc9a4;
+    color:#789cc5;
  }
 
  @media screen and (min-width: 768px) {
@@ -262,7 +262,7 @@ footer .boxs {
 
     .nome {
         font-size: 70px;
-        color: #9dc9a4;
+        color: #4e93a8;
         font-family: "oswald", sans-serif;
     }
 
