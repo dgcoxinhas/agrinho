@@ -13,9 +13,11 @@ body {
     background-color:#bfd8ec
 }
 
-h1 {
+h1, p,h2,h6 {
     color: #ffffff
 }
+
+
 
 section {
     display: flex;
