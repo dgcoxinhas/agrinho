@@ -194,7 +194,7 @@ nav{
 
 nav a{
     padding: 20px 0;
-    color: #9db5c9;
+    color: #ffffff;
     font-size: 25px;
     display: block;
     padding: 9px 52px 12px 58px ;
@@ -202,7 +202,7 @@ nav a{
 
 nav a:hover{
     color: #212344;
-    background-color: #8599ce;
+    background-color: #21429e;
 }
 
 main{
