@@ -183,7 +183,7 @@ header a {
 nav{
     height: 100%;
     width: 0px;
-    background-color:#305874;
+    background-color:#1a77ad;
     position: fixed;
     top: 0;
     right: 0;
@@ -262,7 +262,7 @@ footer .boxs {
 
     .nome {
         font-size: 70px;
-        color: #4e93a8;
+        color: #83e2ff;
         font-family: "oswald", sans-serif;
     }
 
