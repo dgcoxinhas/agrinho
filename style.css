@@ -37,7 +37,7 @@ header a {
 
 .nome {
     font-size: 55px;
-    color: #c99dae;
+    color: #a3d2fd;
     font-family: "oswald", sans-serif;
 }
 
@@ -183,7 +183,7 @@ header a {
 nav{
     height: 100%;
     width: 0px;
-    background-color: #214427;
+    background-color:#305874;
     position: fixed;
     top: 0;
     right: 0;
