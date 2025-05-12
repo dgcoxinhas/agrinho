@@ -98,6 +98,10 @@ header a {
 
 }
 
+input{
+    color: #ffffff;
+}
+
 ::placeholder{
     color: #eefcff;
 }
