@@ -99,7 +99,7 @@ header a {
 }
 
 ::placeholder{
-    color: #ffffff;
+    color: #eefcff;
 }
 
 .caixa-pesquisa {
@@ -110,7 +110,7 @@ header a {
 
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
-   padding: 7px;
+   padding: 5px 17px;
 }
 
 .menu{
