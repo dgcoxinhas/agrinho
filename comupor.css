@@ -16,57 +16,29 @@ body {
 h1 {
     color: var(--cor-do-texto);
 }
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
+}
+
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #214427;
+    background-color: #1a77ad;
 }
+
 header a {
     color: #000000;
     text-decoration: none;
 }
 
-nav{
-    height: 100%;
-    width: 0px;
-    background-color: #214427;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    overflow: hidden;
-    transition: widht 0.3s;
-}
-
-nav a{
-    padding: 20px 0;
-    color: #9dc9a4;
-    font-size: 25px;
-    display: block;
-    padding: 12px 10px 12px 32px ;
-}
-
-nav a:hover{
-    color: #214427;
-    background-color: #9dc9a4;
-}
-
-main{
-    padding: 10px;
-    transition: margin-left 0.5s;
-}
-
 .nome {
     font-size: 55px;
-    color: #9dc9a4;
+    color: #a3d2fd;
     font-family: "oswald", sans-serif;
-}
-
-.hello-kitty {
-    display: flex;
-    align-items: center;
-    margin: -5% 0;
 }
 
 .marca {
@@ -77,12 +49,27 @@ main{
     right: 37px; 
 }
 
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+
 #icon-pesquisa {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
+    
 }
 
 .icon-pesquisa {
@@ -99,10 +86,10 @@ main{
     line-height: 40px;
     width: 0;
     transition: .5s;
-    background-color: #4c8355;
+    background-color: #1a77ad;
     border-radius: 92px;
 }
-
+    
 .icon {
     width: 40px;
     height: 40px;
@@ -110,21 +97,13 @@ main{
 }
 
 .caixa-pesquisa {
+    height: 68px;
     display: flex;
-    height: 168px;
     align-items: center;
-
 }
 
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
-}
-
-.titulo {
-    font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400px;
-    font-style: normal;
 }
 
 .menu{
@@ -134,8 +113,35 @@ main{
     font-style: normal;
 }
 
+nav{
+    height: 100%;
+    width: 0px;
+    background-color:#1a77ad;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: widht 0.3s;
+}
 
+nav a{
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 25px;
+    display: block;
+    padding: 9px 52px 12px 58px ;
+}
 
+nav a:hover{
+    color: #bcd2e0;
+    background-color: #166ea1;
+}
+
+main{
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
 
 .topico {
     font-family: "Source Sans 3", sans-serif;
@@ -317,13 +323,9 @@ footer {
     min-height: 250px;
     display: flex;
     width: 100%;
-    background: #214427;
+    background: #305874;
     flex-direction: column;
     text-align: center;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
 }
 
 footer .boxs {
@@ -332,10 +334,14 @@ footer .boxs {
     min-height: 150px;
     padding: 52px;
     font-size: 32px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
 }
 
  .boxs h2{
-    color: #b6e9be;
+    color: #b6e6e9;
     margin-bottom: 20px;
  }
 
@@ -345,23 +351,15 @@ footer .boxs {
  }
 
  .boxs ul li a{
-    color:#e5f7e7;
+    color:#e5eff7;
     text-decoration: none;
  }
 
  .boxs ul li a:hover {
-    color:#9dc9a4;
+    color:#789cc5;
  }
 
-.rede-social{
-    text-decoration: none;
-    user-select: none;
-    cursor: pointer;
-    color: #000000;
-} 
-
-
-@media screen and (min-width: 1024px) {
+ @media screen and (min-width: 768px) {
 
     .hello-kitty {
         display: flex;
@@ -371,7 +369,7 @@ footer .boxs {
 
     .nome {
         font-size: 70px;
-        color: #9dc9a4;
+        color: #83e2ff;
         font-family: "oswald", sans-serif;
     }
 
@@ -379,153 +377,6 @@ footer .boxs {
         height: 68px;
 
     }
-
-.descri{
-    font-size: 29px;
-    padding: 34px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 336;
-    font-style: normal;
-  }
-
-.letrinha-pequena{
-    font-size: 25px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-  }
-
-  .letrinha-pequena1{
-    color: #000000;
-    font-size: 25px;
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    text-decoration: none;
-    user-select: none;
-    cursor: pointer;
-    color: #000000;
-  }
-
-.section {
-    padding: 2%;
-    background-color: #ffffff;
-    margin: 0 3%;
-    border-radius: 50px;
-    border: 50px solid rgba(213, 229, 218, 0.62);
-}
-
-.logobr {
-    margin-left: -2%;
-    width: 37%;
-    float: left;
-    user-select: none;
-    cursor: pointer;
-    padding: 4%;
-}
-
-.logobne {
-    width: 38%;
-    float: left;
-    user-select: none;
-    cursor: pointer;
-    padding: 0 5%;
-}
-
-.logo {
-    width: 47%;
-    float: left;
-    padding: 6% 5%;
-    user-select: none;
-    cursor: pointer;
-}
-
-.logofaemg {
-    width: 47%;
-    float: left;
-    padding: 5%;
-    user-select: none;
-    cursor: pointer;
-}
-
-.logoadvance {
-    width: 47%;
-    float: left;
-    padding: 8% 5%;
-    user-select: none;
-    cursor: pointer;
-}
-
-.logohortinha {
-    border-radius: 17%;
-    width: 44%;
-    float: left;
-    padding: 0 5%;
-    user-select: none;
-    cursor: pointer;
-    margin-top: 0%;
-}
-
-.texto-comunidade {
-    display: flex;
-    margin: 0 28px;
-    background: none;
-    outline: none;
-    padding: 20px;
-    font-size: 16px;
-    transition: .5s;
-    background-color: #afbbb1;
-    border-radius: 25px;
-    padding-bottom: 164px;
-    flex-wrap: wrap;
-}
-
-.caixa-comunidade{
-        height: 168px;
-    }
-
-.botao{    
-    margin-left: 3%;
-    width: 14%;
-    border-radius: 40px;
-    background: #aec9ba;
-    margin-top: 2%;
-    height: 48px;
-}
-
-.topico{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35px;
-    padding: 0 4%;
-    color: #030e04;
-}
-
-.topico1{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 35px;
-    padding: 0 4%;
-    color: #030e04;
-    padding-top: 91px;
-}
-
-.desenvol{
-  padding: 0 50px;
-  font-size: 26px;
-  font-family: "Source Sans 3", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 336;
-  font-style: normal;
-}
-
     footer {
         display: flex;
         flex-direction: row;
