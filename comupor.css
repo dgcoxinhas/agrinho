@@ -10,12 +10,14 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo)
+    background-color:#bfd8ec;
 }
 
-h1 {
-    color: var(--cor-do-texto);
+
+h1,p,h2,h6,h3 {
+    color: #ffffff
 }
+
 
 section {
     display: flex;
@@ -175,10 +177,10 @@ main{
 
 .section {
     padding: 3%;
-    background-color: #ffffff;
+    background-color: #d4ebff;
     margin: 0 3%;
     border-radius: 50px;
-    border: 27px solid rgba(128, 197, 229, 0.815);
+    border: 27px solid rgb(8, 108, 155);
 }
 
 .section1 {
