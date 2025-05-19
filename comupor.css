@@ -230,7 +230,8 @@ main{
 }
 
 .logosenar {
-    width: 42%;
+    border-radius: 14%;
+    width: 79%;
     float: left;
     user-select: none;
     cursor: pointer;
