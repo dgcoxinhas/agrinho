@@ -37,7 +37,7 @@ header a {
 
 .nome {
     font-size: 55px;
-    color: #ebf5ff;
+    color: #effbff;
     font-family: "oswald", sans-serif;
 }
 
@@ -86,7 +86,7 @@ header a {
     line-height: 40px;
     width: 0;
     transition: .5s;
-    background-color: #1a77ad;
+    background-color: #2091d3;
     border-radius: 92px;
 }
     
@@ -367,7 +367,7 @@ footer .boxs {
     color:#789cc5;
  }
 
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .hello-kitty {
         display: flex;
@@ -377,7 +377,7 @@ footer .boxs {
 
     .nome {
         font-size: 70px;
-        color: #83e2ff;
+        color: #effbff;
         font-family: "oswald", sans-serif;
     }
 
