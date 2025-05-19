@@ -228,9 +228,8 @@ main{
 }
 
 .logosenar {
-    width: 85%;
+    width: 42%;
     float: left;
-    padding: 5%;
     user-select: none;
     cursor: pointer;
     margin-left: 5%;
