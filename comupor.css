@@ -156,7 +156,7 @@ main{
     font-style: normal;
     font-size: 25px;
     padding: 0 8%;
-    color: #030e04;
+    color: #ffffff;
 }
 
 .topico1 {
@@ -166,13 +166,13 @@ main{
     font-style: normal;
     font-size: 30px;
     padding: 0px 7%;
-    color: #030e04;
+    color: #ffffff;
     padding-top: 70px;
 }
 
 .section {
     padding: 3%;
-    background-color: #83a5c1;
+    background-color: #ffff;
     margin: 0 3%;
     border-radius: 50px;
     border: 27px solid rgb(8, 108, 155);
@@ -183,7 +183,7 @@ main{
     background-color: #ffffff;
     margin: 3%;
     border-radius: 50px;
-    border: 27px solid rgb(212, 232, 240);
+    border: 27px solid rgb(206 231 243);
 }
 
 
