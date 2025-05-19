@@ -183,7 +183,7 @@ main{
     background-color: #ffffff;
     margin: 3%;
     border-radius: 50px;
-    border: 27px solid rgb(206 231 243);
+    border: 27px solid rgb(214 227 233);
 }
 
 
@@ -198,6 +198,7 @@ main{
     padding-top: 4%;
 }
 .desenvol {
+    color: white;
     padding: 0 40px;
     font-size: 24px;
     font-family: "Source Sans 3", sans-serif;
