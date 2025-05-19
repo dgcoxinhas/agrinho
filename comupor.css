@@ -96,6 +96,14 @@ header a {
 
 }
 
+input{
+    color: #ffffff;
+}
+
+::placeholder{
+    color: #eefcff;
+}
+
 .caixa-pesquisa {
     height: 68px;
     display: flex;
@@ -104,6 +112,7 @@ header a {
 
 .caixa-pesquisa:hover > .texto-pesqu {
    width: 240px;
+   padding: 5px 17px;
 }
 
 .menu{
