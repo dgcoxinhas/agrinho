@@ -186,6 +186,13 @@ main{
     border: 27px solid rgb(8, 108, 155);
 }
 
+.section2 {
+    background-color: #ffff;
+    margin: 0 3%;
+    border-radius: 50px;
+    border: 27px solid rgb(8, 108, 155);
+}
+
 
 .quem_somos{
     font-family: "Source Sans 3", sans-serif;
@@ -217,7 +224,7 @@ main{
 }
 
 .logouniasselvi {
-    width: 88%;
+    width: 55%;
     float: left;
     padding: 10% 0;
     user-select: none;
