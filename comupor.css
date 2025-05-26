@@ -252,7 +252,7 @@ main{
 }
 
 .logoanhanguera{
-    width: 85%;
+    width: 86%;
     float: left;
     padding: 5%;
     user-select: none;
@@ -269,12 +269,10 @@ main{
     margin-left: 10%;}
 
 .logoudemy {
-    width: 76%;
+    width: 87%;
     float: left;
     user-select: none;
     cursor: pointer;
-    padding: 5%;
-    margin-left: 10%;
 }
 
 .logorwsolares {
