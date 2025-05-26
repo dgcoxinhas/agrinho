@@ -216,7 +216,7 @@ main{
     margin-top: 9%;
 }
 
-.logoadvance {
+.logouniasselvi {
     width: 88%;
     float: left;
     padding: 10% 0;
@@ -244,7 +244,7 @@ main{
     margin-top: 7%;
 }
 
-.logobne{
+.logoanhanguera{
     width: 85%;
     float: left;
     padding: 5%;
@@ -253,7 +253,24 @@ main{
     margin-left: 10%;
 }
 
-.logobr {
+.logounyleya{
+    width: 85%;
+    float: left;
+    padding: 5%;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 10%;}
+
+.logoudemy {
+    width: 76%;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.logorwsolares {
     width: 76%;
     float: left;
     user-select: none;
