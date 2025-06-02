@@ -359,7 +359,7 @@ main {
     padding: 20px;
     font-size: 16px;
     transition: .5s;
-    background-color: #aad8e6;
+    background-color: #0a6783;
     border-radius: 25px;
     padding-bottom: 164px;
     flex-wrap: wrap;
@@ -374,7 +374,7 @@ main {
 .botao {
     padding: 6px;
     border-radius: 9px;
-    background: #97c8df;
+    background: #b0e6ff;;
     margin-top: 2%;
     margin-left: 2%;
     width: 90%;
