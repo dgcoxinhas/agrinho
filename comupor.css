@@ -188,6 +188,15 @@ main{
     border: 27px solid rgb(8, 108, 155);
 }
 
+.caixinha {
+    padding: 3%;
+    background-color: #ffff;
+    margin: 0 3%;
+    border-radius: 50px;
+    border: 27px solid rgb(8, 108, 155);
+}
+
+
 .section1 {
     padding: 3%;
     background-color: #ffffff;
