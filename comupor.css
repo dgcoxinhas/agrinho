@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color:#bfd8ec;
+    background-color: #bfd8ec;
 }
 
 
@@ -43,7 +43,7 @@ header a {
     padding: 1% 0;
     position: relative;
     top: 69px;
-    right: 37px; 
+    right: 37px;
 }
 
 .hello-kitty {
@@ -66,7 +66,7 @@ header a {
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
-    
+
 }
 
 .icon-pesquisa {
@@ -86,18 +86,18 @@ header a {
     background-color: #2091d3;
     border-radius: 92px;
 }
-    
+
 .icon {
     width: 40px;
     height: 40px;
 
 }
 
-input{
+input {
     color: #ffffff;
 }
 
-::placeholder{
+::placeholder {
     color: #eefcff;
 }
 
@@ -107,22 +107,22 @@ input{
     align-items: center;
 }
 
-.caixa-pesquisa:hover > .texto-pesqu {
-   width: 240px;
-   padding: 5px 17px;
+.caixa-pesquisa:hover>.texto-pesqu {
+    width: 240px;
+    padding: 5px 17px;
 }
 
-.menu{
+.menu {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;
     font-style: normal;
 }
 
-nav{
+nav {
     height: 100%;
     width: 0px;
-    background-color:#1a77ad;
+    background-color: #1a77ad;
     position: fixed;
     top: 0;
     right: 0;
@@ -131,20 +131,20 @@ nav{
     transition: widht 0.3s;
 }
 
-nav a{
+nav a {
     padding: 20px 0;
     color: #ffffff;
     font-size: 25px;
     display: block;
-    padding: 9px 52px 12px 58px ;
+    padding: 9px 52px 12px 58px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #bcd2e0;
     background-color: #166ea1;
 }
 
-main{
+main {
     padding: 10px;
     transition: margin-left 0.5s;
 }
@@ -188,8 +188,8 @@ main{
     border: 27px solid rgb(8, 108, 155);
 }
 
-.caixinha{
-   padding: 56px 24px;
+.caixinha {
+    padding: 56px 24px;
 }
 
 .section1 {
@@ -207,11 +207,11 @@ main{
     border: 27px solid rgb(8, 108, 155);
 }
 
-.cominiti{
-    background-color:#bfd8ec;
+.cominiti {
+    background-color: #bfd8ec;
 }
 
-.quem_somos{
+.quem_somos {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -221,6 +221,7 @@ main{
     color: #030e04;
     padding-top: 4%;
 }
+
 .desenvol {
     color: white;
     padding: 0 40px;
@@ -279,7 +280,7 @@ main{
     margin-top: 7%;
 }
 
-.logoanhanguera{
+.logoanhanguera {
     width: 86%;
     float: left;
     padding: 5%;
@@ -288,13 +289,14 @@ main{
     margin-left: 10%;
 }
 
-.logounyleya{
+.logounyleya {
     width: 85%;
     float: left;
     padding: 5%;
     user-select: none;
     cursor: pointer;
-    margin-left: 10%;}
+    margin-left: 10%;
+}
 
 .logoudemy {
     width: 87%;
@@ -312,31 +314,31 @@ main{
     margin-left: 10%;
 }
 
-.google{
+.google {
     height: 20%;
     width: 90%;
     margin-left: 5%;
 }
 
-.descri{
+.descri {
     font-size: 19px;
     padding: 34px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;
     font-style: normal;
-  }
+}
 
-.letrinha-pequena{
+.letrinha-pequena {
     margin: 0 31px;
     font-size: 17px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-  }
+}
 
-  .letrinha-pequena1{
+.letrinha-pequena1 {
     color: #000000;
     font-size: 17px;
     font-family: "Source Sans 3", sans-serif;
@@ -346,9 +348,9 @@ main{
     cursor: pointer;
     text-decoration: none;
     user-select: none;
-  }
- 
-  .texto-comunidade {
+}
+
+.texto-comunidade {
     display: flex;
     width: 90%;
     margin: 0 28px;
@@ -361,7 +363,7 @@ main{
     border-radius: 25px;
     padding-bottom: 164px;
     flex-wrap: wrap;
-  }
+}
 
 
 .caixa-comunidade {
@@ -369,11 +371,13 @@ main{
     height: 168px;
 }
 
-.botao{
+.botao {
     padding: 6px;
-    margin-left: 6%;
     border-radius: 9px;
     background: #97c8df;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 90%;
 }
 
 footer {
@@ -397,24 +401,24 @@ footer .boxs {
     font-style: normal;
 }
 
- .boxs h2{
+.boxs h2 {
     color: #b6e6e9;
     margin-bottom: 20px;
- }
+}
 
- .boxs ul li{
-    margin:10px 0px;
+.boxs ul li {
+    margin: 10px 0px;
     list-style: none;
- }
+}
 
- .boxs ul li a{
-    color:#e5eff7;
+.boxs ul li a {
+    color: #e5eff7;
     text-decoration: none;
- }
+}
 
- .boxs ul li a:hover {
-    color:#789cc5;
- }
+.boxs ul li a:hover {
+    color: #789cc5;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -434,6 +438,7 @@ footer .boxs {
         height: 68px;
 
     }
+
     footer {
         display: flex;
         flex-direction: row;
