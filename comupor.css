@@ -170,6 +170,16 @@ main{
     padding-top: 70px;
 }
 
+.topico3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 48px;
+    padding: 0 5%;
+    color: #ffffff;
+}
+
 .section {
     padding: 3%;
     background-color: #ffff;
@@ -216,6 +226,17 @@ main{
     font-weight: 336;
     font-style: normal;
 }
+
+.desenvol3 {
+    color: white;
+    padding: 0 70px;
+    font-size: 34px;
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 336;
+    font-style: normal;
+}
+
 
 .logo {
     width: 58%;
