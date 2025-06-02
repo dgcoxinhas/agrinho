@@ -188,6 +188,9 @@ main{
     border: 27px solid rgb(8, 108, 155);
 }
 
+.caixinha{
+   padding: 56px 24px;
+}
 
 .section1 {
     padding: 3%;
@@ -367,10 +370,10 @@ main{
 }
 
 .botao{
+    padding: 6px;
     margin-left: 6%;
-    border-radius: 46px;
+    border-radius: 9px;
     background: #97c8df;
-    margin-top: 2%;
 }
 
 footer {
