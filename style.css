@@ -272,3 +272,119 @@ footer .boxs {
 .boxs ul li a:hover {
     color: #789cc5;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: #bfd8ec;
+}
+
+h1,
+p,
+h2,
+h6,
+h3 {
+    color: #ffffff;
+}
+
+section {
+    display: flex;
+    color: rgb(#000000);
+    background-color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a77ad;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    padding: 0 162px;
+    font-size: 80px;
+    color: #effbff;
+    font-family: "oswald", sans-serif;
+}
+
+.marca {
+    width: 25%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    left: 15px;
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+#icon-pesquisa {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #ffd5b2;
+    border-radius: 40px;
+    margin: 7% 20%;
+}
+
+.icon-pesquisa {
+    user-select: none;
+    cursor: pointer;
+}
+
+.texto-pesqu {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    background-color: #2091d3;
+    border-radius: 92px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+input {
+    color: #ffffff;
+}
+
+::placeholder {
+    color: #eefcff;
+}
+
+.caixa-pesquisa {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa-pesquisa:hover>

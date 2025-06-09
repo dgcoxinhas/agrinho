@@ -169,7 +169,7 @@ main {
     font-size: 30px;
     padding: 0px 7%;
     color: #ffffff;
-    padding-top: 70px;
+    padding-top: 9%;
 }
 
 .topico3 {
@@ -423,4 +423,116 @@ footer .boxs {
 
 .boxs ul li a:hover {
     color: #789cc5;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .hello-kitty {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marca {
+        width: 60%;
+        top: 0;
+        left: 0;
+        position: static;
+    }
+
+    .nome {
+        font-size: 40px;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .caixa-pesquisa {
+        justify-content: center;
+        margin: 10px 0;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .texto-pesqu {
+        width: 180px !important;
+        padding: 5px 10px !important;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .section, .section1, .section2 {
+        flex-direction: column;
+        padding: 5%;
+        margin: 10px;
+        border-width: 15px;
+    }
+
+    .descri {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .logosenar,
+    .logouniasselvi,
+    .logoanhanguera,
+    .logoudemy,
+    .logounyleya,
+    .logorwsolares {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+    }
+
+    .topico1,
+    .topico3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .desenvol,
+    .desenvol3 {
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .texto-comunidade {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 100px;
+        font-size: 14px;
+    }
+
+    .botao {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .boxs {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .boxs h2 {
+        font-size: 20px;
+    }
+
+    .boxs ul li a {
+        font-size: 16px;
+    }
 }
