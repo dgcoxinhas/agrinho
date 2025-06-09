@@ -538,6 +538,11 @@ footer .boxs {
 }
 
 @media (max-width: 768px) {
+    
+    section{
+        flex-grow: 0;
+    }
+
     header {
         flex-direction: column;
         text-align: center;
