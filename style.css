@@ -537,7 +537,6 @@ footer .boxs {
     color: #789cc5;
 }
 
-/* RESPONSIVO - ajustes para telas pequenas (celulares) */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -597,7 +596,7 @@ footer .boxs {
     }
 }
 
-/* Responsivo para telas muito pequenas (celulares mais compactos) */
+
 @media (max-width: 480px) {
     .nome {
         font-size: 36px;

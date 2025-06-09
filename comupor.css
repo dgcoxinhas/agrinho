@@ -426,29 +426,21 @@ footer .boxs {
 }
 
 @media (max-width: 768px) {
-    header {
+     header {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
-
-    .hello-kitty {
-        margin: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .marca {
-        width: 60%;
-        top: 0;
-        left: 0;
-        position: static;
+        text-align: center;
     }
 
     .nome {
-        font-size: 40px;
-        padding: 10px 0;
-        text-align: center;
+        padding: 0 50px;
+        font-size: 48px;
+    }
+
+    .marca {
+        width: 100%;
+        padding: 1% 0;
+        top: 0;
+        left: 0;
     }
 
     .caixa-pesquisa {
