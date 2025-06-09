@@ -388,9 +388,11 @@ footer {
     display: flex;
     width: 100%;
     background: #305874;
-    flex-direction: column;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+
 }
+
 
 footer .boxs {
     text-align: center;

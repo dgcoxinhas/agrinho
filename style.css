@@ -10,10 +10,14 @@
 }
 
 body {
-    background-color:#bfd8ec;
+    background-color: #bfd8ec;
 }
 
-h1,p,h2,h6,h3 {
+h1,
+p,
+h2,
+h6,
+h3 {
     color: #ffffff
 }
 
@@ -49,7 +53,7 @@ header a {
     padding: 1% 0;
     position: relative;
     top: 69px;
-    left: 15px; 
+    left: 15px;
 }
 
 .hello-kitty {
@@ -72,7 +76,7 @@ header a {
     background-color: #ffd5b2;
     border-radius: 40px;
     margin: 7% 20%;
-    
+
 }
 
 .icon-pesquisa {
@@ -92,18 +96,18 @@ header a {
     background-color: #2091d3;
     border-radius: 92px;
 }
-    
+
 .icon {
     width: 40px;
     height: 40px;
 
 }
 
-input{
+input {
     color: #ffffff;
 }
 
-::placeholder{
+::placeholder {
     color: #eefcff;
 }
 
@@ -113,18 +117,19 @@ input{
     align-items: center;
 }
 
-.caixa-pesquisa:hover > .texto-pesqu {
-   width: 240px;
-   padding: 5px 17px;
+.caixa-pesquisa:hover>.texto-pesqu {
+    width: 240px;
+    padding: 5px 17px;
 }
 
-.menu{
+.menu {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;
     font-style: normal;
 }
-.apresentação{
+
+.apresentação {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;
@@ -133,17 +138,17 @@ input{
     padding: 0 6%;
 }
 
-.img-tec{
+.img-tec {
     width: 35%;
     float: right;
 }
 
-.img-tec2{
+.img-tec2 {
     width: 35%;
     float: right;
 }
 
-.titulo-principal{
+.titulo-principal {
     margin-top: 7%;
     padding: 20px 98px;
     font-size: 66px;
@@ -151,10 +156,10 @@ input{
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
-    background-color: #bfd8ec ;
-    }
+    background-color: #bfd8ec;
+}
 
-.topico{
+.topico {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
@@ -165,40 +170,40 @@ input{
     color: #030e04;
 }
 
-.desenvol{
+.desenvol {
     font-size: 35px;
     padding: 0 6%;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 336;
     font-style: normal;
-  }
-  
-.div{
+}
+
+.div {
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 365;
     font-style: normal;
     font-size: 35px;
     padding: 2% 5%;
-  }
+}
 
-.letrinha-pequena{
+.letrinha-pequena {
     color: #ffffff;
     font-size: 25px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-  }
- 
+}
 
 
 
-nav{
+
+nav {
     height: 100%;
     width: 0px;
-    background-color:#1a77ad;
+    background-color: #1a77ad;
     position: fixed;
     top: 0;
     right: 0;
@@ -207,20 +212,20 @@ nav{
     transition: widht 0.3s;
 }
 
-nav a{
+nav a {
     padding: 20px 0;
     color: #ffffff;
     font-size: 25px;
     display: block;
-    padding: 9px 52px 12px 58px ;
+    padding: 9px 52px 12px 58px;
 }
 
-nav a:hover{
+nav a:hover {
     color: #bcd2e0;
     background-color: #166ea1;
 }
 
-main{
+main {
     padding: 10px;
     transition: margin-left 0.5s;
 }
@@ -232,8 +237,9 @@ footer {
     display: flex;
     width: 100%;
     background: #305874;
-    flex-direction: column;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+
 }
 
 footer .boxs {
@@ -248,22 +254,21 @@ footer .boxs {
     font-style: normal;
 }
 
- .boxs h2{
+.boxs h2 {
     color: #effbff;
     margin-bottom: 20px;
- }
+}
 
- .boxs ul li{
-    margin:10px 0px;
+.boxs ul li {
+    margin: 10px 0px;
     list-style: none;
- }
+}
 
- .boxs ul li a{
-    color:#e5eff7;
+.boxs ul li a {
+    color: #e5eff7;
     text-decoration: none;
- }
+}
 
- .boxs ul li a:hover {
-    color:#789cc5;
- }
-
+.boxs ul li a:hover {
+    color: #789cc5;
+}
