@@ -426,111 +426,95 @@ footer .boxs {
     color: #789cc5;
 }
 
+@* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-texto: #000000;
+}
+
+body {
+    background-color: #bfd8ec;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a77ad;
+    padding: 10px 5%;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.nome {
+    font-size: 80px;
+    color: #effbff;
+    font-family: "oswald", sans-serif;
+    padding: 0;
+}
+
+.marca {
+    width: 25%;
+    padding: 1% 0;
+    position: relative;
+    top: 69px;
+    left: 15px;
+}
+
+.hello-kitty {
+    display: flex;
+    align-items: center;
+    margin: -5% 0;
+}
+
+.titulo {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+/* Ajuste para telas menores */
 @media (max-width: 768px) {
     header {
+        flex-direction: column;
         text-align: center;
+        padding: 20px 5%;
     }
 
     .nome {
-        padding: 0 61px;
-        font-size: 50px;
+        font-size: 48px;
+        padding: 0;
     }
 
     .marca {
-        width: 37%;
-    }
-
-    .caixa-pesquisa {
-        margin: 0 10px;
-        justify-content: center;
-    }
-    
-    .caixa-pesquisa:hover>.texto-pesqu {
-        width: 240px;
-        padding: 5px 17px;
-    }
-
-    .menu {
-        font-size: 18px;
-    }
-
-    .texto-pesqu {
-        width: 180px;
-        padding: 5px 10px;
-    }
-
-    nav a {
-        font-size: 20px;
-        padding: 10px 20px;
-    }
-
-    .section,
-    .section1,
-    .section2 {
-        flex-direction: column;
-        padding: 5%;
-        margin: 10px;
-        border-width: 15px;
-    }
-
-    .descri {
-        padding: 15px;
-        font-size: 16px;
-    }
-
-    .logosenar,
-    .logouniasselvi,
-    .logoanhanguera,
-    .logoudemy,
-    .logounyleya,
-    .logorwsolares {
-        width: 100%;
-        float: none;
-        margin: 0 auto;
+        width: 60%;
         padding: 0;
-        display: block;
+        top: 0;
+        left: 0;
     }
 
-    .topico1,
-    .topico3 {
-        font-size: 24px;
-        text-align: center;
+    .hello-kitty {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 3%;
     }
 
-    .desenvol,
-    .desenvol3 {
-        font-size: 18px;
-        padding: 10px;
-        text-align: center;
+    .nome {
+        font-size: 36px;
     }
 
-    .texto-comunidade {
-        width: 90%;
-        margin: 0 auto;
-        padding-bottom: 100px;
-        font-size: 14px;
-    }
-
-    .botao {
-        width: 90%;
-        margin: 10px auto;
-    }
-
-    footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer .boxs {
-        padding: 20px;
-        font-size: 18px;
-    }
-
-    .boxs h2 {
-        font-size: 20px;
-    }
-
-    .boxs ul li a {
-        font-size: 16px;
+    .marca {
+        width: 70%;
     }
 }
