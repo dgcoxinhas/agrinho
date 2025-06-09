@@ -438,7 +438,6 @@ footer .boxs {
 
     .marca {
         width: 37%;
-   
     }
 
     .caixa-pesquisa {
@@ -447,18 +446,17 @@ footer .boxs {
     }
     
     .caixa-pesquisa:hover>.texto-pesqu {
-    width: 240px;
-    padding: 5px 17px;
-}
-
+        width: 240px;
+        padding: 5px 17px;
+    }
 
     .menu {
         font-size: 18px;
     }
 
     .texto-pesqu {
-        width: 180px ;
-        padding: 5px 10px ;
+        width: 180px;
+        padding: 5px 10px;
     }
 
     nav a {
