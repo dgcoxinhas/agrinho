@@ -428,20 +428,17 @@ footer .boxs {
 
 @media (max-width: 768px) {
     header {
-        flex-direction: column;
         text-align: center;
     }
 
     .nome {
-        padding: 0 50px;
-        font-size: 48px;
+        padding: 0 61px;
+        font-size: 50px;
     }
 
     .marca {
-        width: 100%;
-        padding: 1% 0;
-        top: 0;
-        left: 0;
+        width: 37%;
+   
     }
 
     .caixa-pesquisa {
