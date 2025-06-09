@@ -183,6 +183,7 @@ input{
   }
 
 .letrinha-pequena{
+    color: #ffffff;
     font-size: 25px;
     font-family: "Source Sans 3", sans-serif;
     font-optical-sizing: auto;
