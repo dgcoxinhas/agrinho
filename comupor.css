@@ -33,7 +33,8 @@ header a {
 }
 
 .nome {
-    font-size: 55px;
+    padding: 0 162px;
+    font-size: 80px;
     color: #effbff;
     font-family: "oswald", sans-serif;
 }
@@ -43,8 +44,9 @@ header a {
     padding: 1% 0;
     position: relative;
     top: 69px;
-    right: 37px;
+    left: 15px; 
 }
+
 
 .hello-kitty {
     display: flex;
@@ -419,29 +421,4 @@ footer .boxs {
 
 .boxs ul li a:hover {
     color: #789cc5;
-}
-
-@media screen and (min-width: 768px) {
-
-    .hello-kitty {
-        display: flex;
-        align-items: center;
-        margin: -3% 0;
-    }
-
-    .nome {
-        font-size: 70px;
-        color: #effbff;
-        font-family: "oswald", sans-serif;
-    }
-
-    .caixa-pesquisa {
-        height: 68px;
-
-    }
-
-    footer {
-        display: flex;
-        flex-direction: row;
-    }
 }
