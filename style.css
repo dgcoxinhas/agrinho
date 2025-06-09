@@ -577,11 +577,7 @@ footer .boxs {
         justify-content: center;
     }
 
-    .caixa-pesquisa:hover>.texto-pesqu {
-    width: 240px;
-    padding: 5px 17px;
-}
-
+    
 
     .menu {
         font-size: 18px;
