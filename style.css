@@ -38,7 +38,8 @@ header a {
 }
 
 .nome {
-    font-size: 55px;
+    padding: 0 162px;
+    font-size: 80px;
     color: #effbff;
     font-family: "oswald", sans-serif;
 }
@@ -266,26 +267,3 @@ footer .boxs {
     color:#789cc5;
  }
 
- @media screen and (min-width: 768px) {
-
-    .hello-kitty {
-        display: flex;
-        align-items: center;
-        margin: -3% 0;
-    }
-
-    .nome {
-        font-size: 70px;
-        color: #effbff;
-        font-family: "oswald", sans-serif;
-    }
-
-    .caixa-pesquisa {
-        height: 68px;
-
-    }
-    footer {
-        display: flex;
-        flex-direction: row;
-    }
-}
