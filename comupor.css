@@ -44,7 +44,7 @@ header a {
     padding: 1% 0;
     position: relative;
     top: 69px;
-    left: 15px; 
+    left: 15px;
 }
 
 
@@ -377,7 +377,8 @@ main {
 .botao {
     padding: 6px;
     border-radius: 9px;
-    background: #b0e6ff;;
+    background: #b0e6ff;
+    ;
     margin-top: 2%;
     margin-left: 2%;
     width: 90%;
@@ -426,7 +427,7 @@ footer .boxs {
 }
 
 @media (max-width: 768px) {
-     header {
+    header {
         flex-direction: column;
         text-align: center;
     }
@@ -444,10 +445,12 @@ footer .boxs {
     }
 
     .caixa-pesquisa {
+        margin: 0 10px;
         justify-content: center;
-        margin: 10px 0;
-        height: auto;
-        flex-wrap: wrap;
+    }
+
+    .menu {
+        font-size: 18px;
     }
 
     .texto-pesqu {
@@ -460,7 +463,9 @@ footer .boxs {
         padding: 10px 20px;
     }
 
-    .section, .section1, .section2 {
+    .section,
+    .section1,
+    .section2 {
         flex-direction: column;
         padding: 5%;
         margin: 10px;
